@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desert Rage</title>
+	<link rel="stylesheet" href="Styles/DataBase.css" />
+	<script type="text/javascript" src="Scripts/DataBase.js"></script>
+</head>
+<body class="grid grid-3 gap-50">
+<section class="TblSection">
+	<div id='BtnTbl'>Таблицы</div>
+	<div id='Tables'>
+		<div id='Player' class="active">Игрок</div>
+		<div id='Bag'>Сумка</div>
+		<div id='Equip'>Экипировка</div>
+		<div id='Settings'>Настройки</div>
+		<div id='Stats'>Параметры</div>
+</section>
+	</div>
+	<section class="grid main">
+		<article class="right">
+			<span onclick="Mode(true);">Таблицы</span>
+			<span onclick="Mode(false);">Форма</span>
+		</article>
+		<section class="grid" id="switcher-table">
+			<article>
+				<nav class="flex">
+					<span>Игрок</span>
+					<span>Сумка</span>
+					<span>Экипировка</span>
+					<span>Настройки</span>
+					<span>Параметры</span>
+				</nav>
+			</article>
+			<section class="grid grid-10p gap">
+			<article class="grid grid-11 gap">
+					<span>Логин</span>
+					<span>Уровень</span>
+					<span>Локация</span>
+					<span>ОЗ</span>
+					<span>ОД</span>
+					<span>Опыт</span>
+					<span>Задача</span>
+					<span>Бестиарий</span>
+					<span>Сеанс</span>
+					<span>Изменение</span>
+					<span>Удаление</span>
+				</article>
+			</section>
+			<section class="grid grid-100p gap" id="Area">
+				<article class="grid grid-11 gap">
+					<input type='textbox' placeholder="Логин"></input>
+					<input type='textbox' placeholder="Уровень"></input>
+					<input type='textbox' placeholder="Локация"></input>
+					<input type='textbox' placeholder="ОЗ"></input>
+					<input type='textbox' placeholder="ОД"></input>
+					<input type='textbox' placeholder="Опыт"></input>
+					<input type='textbox' placeholder="Задача"></input>
+					<input type='textbox' placeholder="Бестиарий"></input>
+					<span><input type='checkbox'>Да</input></span>
+					<span><input type='submit' value="!/_ Изменение"></input></span>
+					<span><input type='submit' value="[Х] Удаление"></input></span>
+				</article>
+				<article class="grid grid-11 gap">
+					<input type='textbox' placeholder="Логин"></input>
+					<input type='textbox' placeholder="Уровень"></input>
+					<input type='textbox' placeholder="Локация"></input>
+					<input type='textbox' placeholder="ОЗ"></input>
+					<input type='textbox' placeholder="ОД"></input>
+					<input type='textbox' placeholder="Опыт"></input>
+					<input type='textbox' placeholder="Задача"></input>
+					<input type='textbox' placeholder="Бестиарий"></input>
+					<span><input type='checkbox'>Да</input></span>
+					<span><input type='submit' value="!/_ Изменение"></input></span>
+					<span><input type='submit' value="[Х] Удаление"></input></span>
+				</article>
+				<article class="grid grid-11 gap">
+					<input type='textbox' placeholder="Логин"></input>
+					<input type='textbox' placeholder="Уровень"></input>
+					<input type='textbox' placeholder="Локация"></input>
+					<input type='textbox' placeholder="ОЗ"></input>
+					<input type='textbox' placeholder="ОД"></input>
+					<input type='textbox' placeholder="Опыт"></input>
+					<input type='textbox' placeholder="Задача"></input>
+					<input type='textbox' placeholder="Бестиарий"></input>
+					<span><input type='checkbox'>Да</input></span>
+					<span><input type='submit' value="(+) Добавление"></input></span>
+					<span>Новый...</span>
+				</article>
+				</section>
+		</section>		
+		<section id="switcher-form" hidden>
+			<article>
+				<nav class="flex">
+				</nav>
+			</article>
+
+		</section>
+	</section>
+</body>
+</html>

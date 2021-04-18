@@ -1,0 +1,292 @@
+body {
+margin:0;
+}
+
+#All {
+width:100vw;
+height:100vh;
+position:absolute;
+display: grid;
+grid-template-rows:1% 18% auto 55% auto 18% 1%;
+grid-template-columns: 0.5% 20% auto 55% auto 20% 0.5%;
+font-family: "Arial";
+}
+
+.TpBtns {
+background: #4444FF;
+color: #FFFFFF;
+}
+
+.im {
+	object-fit: cover;
+}
+
+#TopPanel
+{
+grid-row:2;
+grid-column-start:1;
+grid-column-end:7;
+display: grid;
+grid-template-rows: 100%;
+grid-template-columns: 1% 27% 1% 49% 21% 1%;
+font-size: 250%;
+}
+
+#Tp1 {
+grid-row:1;
+grid-column-start:1;
+grid-column-end:3;
+height:100%;
+width:100%;
+}
+
+#Tp1 p {
+position: relative;
+margin: 0;
+left: 5%;
+top:25%;
+}
+
+#Tp2 {
+grid-row:1;
+grid-column:4;
+height:100%;
+width:100%;
+}
+
+#Tp2 p {
+position: relative;
+margin: 0;
+right: 5%;
+top:25%;
+text-align: right;
+}
+
+#Tp3 {
+grid-row:1;
+grid-column-start:5;
+grid-column-end:7;
+height:100%;
+width:100%;
+background: #4499FF;
+}
+
+#Tp3 p {
+position: relative;
+margin: 0;
+right: 5%;
+top:25%;
+text-align: right;
+font-family: "Franklin Gothic";
+}
+
+.LpBtns {
+background: #7777FF;
+color: #FFFFFF;
+height:100%;
+width:100%;
+}
+
+#LeftPanel
+{
+padding: auto;
+font-size: 150%;
+grid-row:4;
+grid-column-start:1;
+grid-column-end:3;
+display: grid;
+grid-template-rows: 1% 10% auto 10% auto 10% auto 10% auto 10% auto 10% auto 10% auto 10% 1%;
+grid-template-columns: 100%;
+}
+
+#Lp1 {
+grid-row:2;
+grid-column:1;
+width: 90%;
+}
+
+#Lp1:hover {
+width: 100%;
+background: #2299FF;
+}
+
+#Lp1:active {
+background: #4499FF;
+}
+
+#Lp1 p {
+position: relative;
+margin: 0;
+left: 10%;
+top:25%;
+}
+
+#Lp2 {
+grid-row:4;
+grid-column:1;
+width: 90%;
+}
+
+#Lp2:hover {
+width: 100%;
+background: #2299FF;
+}
+
+#Lp2:active {
+background: #4499FF;
+}
+
+#Lp2 p {
+position: relative;
+margin: 0;
+left: 10%;
+top:25%;
+}
+
+#MainContent {
+background: #EEEEFF;
+color: #FFFFFF;
+grid-column:4;
+grid-row:4;
+position: relative;
+height:100%;
+width:100%;
+color: #666666;
+font-size: 125%;
+display: grid;
+grid-template-rows: 2% 8% 10% 10% 10% 10% 10% 10% 10% 10% 8% 2%;
+grid-template-columns: 2% 9% 6% 5% 5% 71% 2%;
+}
+
+#TxtHd {
+	grid-column-start:2;
+	grid-column-end:7;
+	grid-row-start:1;
+	grid-row-end:2;
+}
+
+#Content {
+	grid-column-start:2;
+	grid-column-end:7;
+	grid-row-start:3;	
+	grid-row-end:6;
+}
+
+#Icon1 {
+	width: 100%;
+	height: 100%;
+	grid-column-start:3;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:5;
+}
+
+#Web {
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row:10;
+	font-family: "Franklin Gothic";
+	font-size:100%;
+}
+
+#Local {
+	grid-column-start:3;
+	grid-column-end:5;
+	grid-row:10;
+	font-family: "Franklin Gothic";
+	font-size:100%;
+}
+
+#Play {
+	font-family: "Franklin Gothic";
+	font-size:120%;	
+}
+
+.RpBtns {
+background: #7777FF;
+color: #FFFFFF;
+}
+
+#RightPanel
+{
+font-size: 150%;
+grid-row:4;
+grid-column:6;
+display: grid;
+grid-template-rows: 1% 10% auto 10% auto 10% auto 10% auto 10% auto 10% auto 10% auto 10% 1%;
+grid-template-columns: 100%;
+}
+
+#Rp1 {
+grid-row:2;
+grid-column:1;
+justify-self: right;
+height:100%;
+width:90%;
+}
+
+#Rp1:hover {
+width: 100%;
+background: #2299FF;
+}
+
+#Rp1:active {
+background: #4499FF;
+}
+
+#Rp1 p {
+position: relative;
+margin: 0;
+text-align: right;
+top:25%;
+right: 10%;
+}
+
+#Rp2 {
+grid-row:4;
+grid-column:1;
+justify-self: right;
+height:100%;
+width:90%;
+}
+
+#Rp2:hover {
+width: 100%;
+background: #2299FF;
+}
+
+#Rp2:active {
+background: #4499FF;
+}
+
+#Rp2 p {
+position: relative;
+margin: 0;
+text-align: right;
+right: 10%;
+top:25%;
+}
+
+#Foot {
+grid-row-start:6;
+grid-row-end:8;
+grid-column-start:1;
+grid-column-end:8;
+height:100%;
+width:100%;
+position: relative;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border: 0.5vh solid grey;
+background: #111155;
+color: #FFFFFF;
+}
+
+#Foot p{
+	position: absolute;
+	text-align: left;
+	font-size: 125%;
+	top:10%;
+	left: 5%;
+}

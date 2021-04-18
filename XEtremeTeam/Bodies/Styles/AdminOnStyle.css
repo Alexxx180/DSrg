@@ -1,0 +1,44 @@
+body{
+margin: 0;
+position: absolute;
+height: 100vh;
+width: 100vw;
+}
+.blue {
+	color:#000000;
+	border: 8px double grey;
+	background: linear-gradient(135deg, #AAEEFF,#3355FF);
+	border-radius: 10%;
+}
+#all {
+	display: grid;
+	grid-template-columns: 25% 12.5% 25% 12.5% 25%;
+	grid-template-rows: 25% 6.75% 37.25% 6.75% 25%;
+	height: 100%;
+	width: 100%;
+}
+
+#ToPass {
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-bottom: 5%;
+	padding-right: 10%;
+	font-size: 125%;
+	grid-row: 3;
+	grid-column: 3;
+}
+#Entrance {
+	font-size: 150%;
+	text-align: center;
+}
+
+/*
+[EN] 
+[RU] 
+*/
+#Login1 {
+	text-align: left;
+}
+#Password1 {
+	text-align: left;
+}
