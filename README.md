@@ -1,4 +1,4 @@
-# Desert Rage [EN]
+﻿# Desert Rage [EN]
 The game that you're all were waiting for...
 
 Guide to start playing:
